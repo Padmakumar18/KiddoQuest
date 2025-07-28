@@ -255,7 +255,7 @@ function App() {
                   <br />
                   123 Happy Lane, FunTown
                   <br />
-                  Chennai - 600001
+                  Udumalpet - 600001
                   <br />
                   Tamil Nadu, India
                 </p>
