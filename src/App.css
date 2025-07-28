@@ -1,7 +1,5 @@
-/* Import Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&family=Baloo+Bhai:wght@400;500;600;700&display=swap");
 
-/* Global Styles */
 * {
   margin: 0;
   padding: 0;
@@ -13,7 +11,6 @@ body {
   line-height: 1.6;
 }
 
-/* Header Section */
 .header-section {
   background: linear-gradient(
     135deg,
@@ -62,7 +59,6 @@ body {
   }
 }
 
-/* Hero Section */
 .hero-section {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
@@ -97,7 +93,6 @@ body {
   }
 }
 
-/* Activities Section */
 .activities-section {
   background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
   color: white;
@@ -123,7 +118,6 @@ body {
   transform: scale(1.2) rotate(5deg);
 }
 
-/* Gallery Section */
 .gallery-section {
   background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
 }
@@ -149,7 +143,6 @@ body {
   color: #666;
 }
 
-/* Features Section */
 .features-section {
   background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
 }
@@ -175,7 +168,6 @@ body {
   transform: scale(1.1);
 }
 
-/* Location Section */
 .location-section {
   background: linear-gradient(135deg, #d299c2 0%, #fef9d7 100%);
 }
@@ -193,7 +185,6 @@ body {
   color: #666;
 }
 
-/* Footer */
 .footer-section {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   position: relative;
@@ -219,7 +210,6 @@ body {
   background: rgba(255, 255, 255, 0.2);
 }
 
-/* Button Styles */
 .btn-primary {
   background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
   border: none;
@@ -254,7 +244,6 @@ body {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-/* Text Styles */
 .display-1,
 .display-4,
 .display-5 {
@@ -282,7 +271,6 @@ body {
   }
 }
 
-/* Additional Animations */
 @keyframes pulse {
   0% {
     transform: scale(1);
@@ -299,12 +287,10 @@ body {
   animation: pulse 0.6s ease-in-out;
 }
 
-/* Smooth scrolling */
 html {
   scroll-behavior: smooth;
 }
 
-/* Custom scrollbar */
 ::-webkit-scrollbar {
   width: 12px;
 }

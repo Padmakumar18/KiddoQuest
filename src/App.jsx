@@ -4,7 +4,6 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      {/* Header Section */}
       <header className="header-section text-center py-4">
         <div className="container">
           <h1 className="display-1 fw-bold text-white mb-2">
@@ -16,7 +15,6 @@ function App() {
         </div>
       </header>
 
-      {/* Hero Banner */}
       <section className="hero-section text-center py-5">
         <div className="container">
           <div className="row align-items-center">
@@ -28,9 +26,9 @@ function App() {
                 Discover endless fun and excitement in our colorful world of
                 activities designed just for kids!
               </p>
-              <button className="btn btn-primary btn-lg px-5 py-3 fw-bold">
-                🚀 Explore Activities
-              </button>
+              <div className="btn btn-primary btn-lg px-5 py-3 fw-bold">
+                🎪 Fun Activities Await!
+              </div>
             </div>
             <div className="col-lg-6">
               <div className="hero-image-container">
@@ -44,7 +42,6 @@ function App() {
         </div>
       </section>
 
-      {/* Activities Section */}
       <section className="activities-section py-5">
         <div className="container">
           <h2 className="text-center display-5 fw-bold mb-5 text-primary">
@@ -151,7 +148,6 @@ function App() {
         </div>
       </section>
 
-      {/* Gallery Section */}
       <section className="gallery-section py-5">
         <div className="container">
           <h2 className="text-center display-5 fw-bold mb-5 text-primary">
@@ -172,7 +168,6 @@ function App() {
         </div>
       </section>
 
-      {/* Special Features Section */}
       <section className="features-section py-5">
         <div className="container">
           <h2 className="text-center display-5 fw-bold mb-5 text-primary">
@@ -221,7 +216,6 @@ function App() {
         </div>
       </section>
 
-      {/* Location Section */}
       <section className="location-section py-5">
         <div className="container">
           <h2 className="text-center display-5 fw-bold mb-5 text-primary">
@@ -248,10 +242,10 @@ function App() {
                   <br />
                   Monday - Sunday: 9:00 AM - 8:00 PM
                 </p>
-                <button className="btn btn-primary btn-lg">
+                <div className="btn btn-primary btn-lg">
                   <i className="bi bi-telephone-fill me-2"></i>
-                  Call Now
-                </button>
+                  Contact Us
+                </div>
               </div>
             </div>
             <div className="col-lg-6">
@@ -269,7 +263,6 @@ function App() {
         </div>
       </section>
 
-      {/* Footer */}
       <footer className="footer-section text-white py-5">
         <div className="container">
           <div className="row">
