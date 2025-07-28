@@ -121,20 +121,24 @@ body {
   transition: all 0.3s ease;
   cursor: pointer;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
 }
 
 .gallery-item:hover {
   transform: scale(1.05);
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  border-color: #ff6b6b;
 }
 
-.gallery-placeholder {
+.gallery-image {
+  width: 100%;
   height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: #666;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover .gallery-image {
+  transform: scale(1.1);
 }
 
 .features-section {

@@ -159,16 +159,32 @@ function App() {
       <section className="gallery-section py-5">
         <div className="container">
           <h2 className="text-center display-5 fw-bold mb-5 text-primary">
-            📸 Fun Moments Gallery
+            📸 Gallery
           </h2>
           <div className="row g-3">
-            {[1, 2, 3, 4, 5, 6, 7, 8].map((item) => (
-              <div key={item} className="col-md-6 col-lg-3">
+            {[
+              "https://images.unsplash.com/photo-1746010531692-7ebb36abce0d",
+              "https://images.unsplash.com/photo-1650458565378-81e6ff56da7a",
+              "https://images.unsplash.com/photo-1746010531887-375d59b8865d",
+              "https://images.unsplash.com/photo-1742131636496-b2015a579725",
+              "https://images.unsplash.com/photo-1590278458425-6aa3912a48a5",
+              "https://images.unsplash.com/photo-1436915947297-3a94186c8133",
+              "https://images.unsplash.com/photo-1714386935945-d2d6c5797c45",
+              "https://images.unsplash.com/photo-1746932313960-551b46fb5c6d",
+            ].map((imageUrl, index) => (
+              <div key={index} className="col-md-6 col-lg-3">
                 <div className="gallery-item rounded shadow-lg overflow-hidden">
-                  <div className="gallery-placeholder">
-                    <i className="bi bi-image display-4 text-muted"></i>
-                    <p className="mt-2">Fun Photo {item}</p>
-                  </div>
+                  <img
+                    src={imageUrl}
+                    alt={`Fun kids activity ${index + 1}`}
+                    className="gallery-image"
+                    style={{
+                      width: "100%",
+                      height: "200px",
+                      objectFit: "cover",
+                      transition: "transform 0.3s ease",
+                    }}
+                  />
                 </div>
               </div>
             ))}
@@ -257,14 +273,23 @@ function App() {
               </div>
             </div>
             <div className="col-lg-6">
-              <div className="map-container rounded shadow-lg overflow-hidden">
-                <div className="map-placeholder">
-                  <i className="bi bi-map display-1 text-muted"></i>
-                  <p className="mt-3">Google Maps Here</p>
-                  <small className="text-muted">
-                    Interactive map showing our location
-                  </small>
-                </div>
+              <div
+                className="map-container rounded shadow-lg overflow-hidden"
+                style={{ height: "300px", width: "100%" }}
+              >
+                <iframe
+                  title="KiddoQuest Location"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31375.839170693213!2d77.25622305!3d10.5807445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba9cc53593a4a43%3A0x2a25be82b1f743e9!2sUdumalaipettai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1753687423946!5m2!1sen!2sin"
+                  style={{
+                    border: 0,
+                    width: "100%",
+                    height: "100%",
+                    display: "block",
+                  }}
+                  allowFullScreen=""
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
               </div>
             </div>
           </div>
