@@ -6,9 +6,7 @@ function App() {
     <div className="App">
       <header className="header-section text-center py-4">
         <div className="container">
-          <h1 className="display-1 fw-bold text-primary mb-2">
-            🎈 KiddoQuest 🎈
-          </h1>
+          <h1 className="display-1 fw-bold text-primary mb-2">KiddoQuest</h1>
           <p className="lead text-dark fs-4">
             Where Every Day is a New Adventure!
           </p>
@@ -26,7 +24,7 @@ function App() {
                 Discover endless fun and excitement in our colorful world of
                 activities designed just for kids!
               </p>
-              <div className="btn btn-primary btn-lg px-5 py-3 fw-bold">
+              <div className="btn-primary btn-lg px-5 py-3 fw-bold">
                 🎪 Fun Activities Await!
               </div>
             </div>
@@ -319,7 +317,7 @@ function App() {
               <div className="contact-info">
                 <p className="mb-2">
                   <i className="bi bi-telephone-fill me-2"></i>
-                  +91-98765-43210
+                  +91-99440-35088
                 </p>
                 <p className="mb-2">
                   <i className="bi bi-envelope-fill me-2"></i>
@@ -327,7 +325,7 @@ function App() {
                 </p>
                 <p className="mb-2">
                   <i className="bi bi-geo-alt-fill me-2"></i>
-                  123 Happy Lane, FunTown, Chennai
+                  123 Happy Lane, FunTown, Udumalapet
                 </p>
               </div>
             </div>
