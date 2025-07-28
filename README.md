@@ -96,9 +96,9 @@ Each activity is presented in an attractive card with:
 
 ## 📍 Location Information
 
-- **Address**: 123 Happy Lane, FunTown, Chennai - 600001
+- **Address**: 123 Happy Lane, FunTown, Udumalpet - 600001
 - **Hours**: Monday - Sunday: 9:00 AM - 8:00 PM
-- **Phone**: +91-98765-43210
+- **Phone**: +91-99440-35088
 - **Email**: contact@kiddoquest.com
 
 ## 🎨 Customization
