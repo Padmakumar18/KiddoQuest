@@ -6,10 +6,10 @@ function App() {
     <div className="App">
       <header className="header-section text-center py-4">
         <div className="container">
-          <h1 className="display-1 fw-bold text-white mb-2">
+          <h1 className="display-1 fw-bold text-primary mb-2">
             🎈 KiddoQuest 🎈
           </h1>
-          <p className="lead text-white fs-4">
+          <p className="lead text-dark fs-4">
             Where Every Day is a New Adventure!
           </p>
         </div>
@@ -22,7 +22,7 @@ function App() {
               <h2 className="display-4 fw-bold text-primary mb-4">
                 Welcome to the Ultimate Kids Play Zone! 🎪
               </h2>
-              <p className="lead mb-4">
+              <p className="lead text-dark mb-4">
                 Discover endless fun and excitement in our colorful world of
                 activities designed just for kids!
               </p>
@@ -32,10 +32,18 @@ function App() {
             </div>
             <div className="col-lg-6">
               <div className="hero-image-container">
-                <div className="hero-placeholder">
-                  <i className="bi bi-emoji-smile display-1 text-warning"></i>
-                  <p className="mt-3">Kids Playing Here!</p>
-                </div>
+                <img
+                  src="https://images.unsplash.com/photo-1586738730873-bdd59a596a2d"
+                  alt="Kids playing and having fun"
+                  className="hero-image"
+                  style={{
+                    width: "100%",
+                    height: "400px",
+                    objectFit: "cover",
+                    borderRadius: "20px",
+                    boxShadow: "0 8px 25px rgba(0, 0, 0, 0.3)",
+                  }}
+                />
               </div>
             </div>
           </div>
